@@ -1,8 +1,7 @@
 # Userspace IOCTL Program to configure, control & perform Audio Playback with VS1053/VS1003 Audio Codec.
 
-IOCTL Userspace Program to control, configure & perform Audio playback with Audio\ 
-Codec.\ 
-Please create a new directory on your Rpi3 Home path. Copy the sources of the directory\
+IOCTL Userspace Program to control, configure & perform Audio playback with Audio 
+Codec.\Please create a new directory on your Rpi3 Home path. Copy the sources of the directory\
 to the new directory.\
 After, this on your Rpi3 Board, inside the sources of this folder, type,
 ```
@@ -38,10 +37,10 @@ The First 'getvolume' shall show 255, 255 as Left & Right channel Volume level v
 Upon setting the volume levels as 220 & 220 for Left & Right channels & then Reading\
 them using 'getvolume' command should successfully Read the volume levels as 220 & 220\
 for Left & Right channel values. This is also a way to ensure correctness of our Linux\
-Device Driver.\
+Device Driver.
 
 Please enusre that after 'insmod vs10xx.ko' there is a device node for vs10xx in /dev\
-directory. By default the User space program assumes it to be in /dev/vs10xx-0.\
+directory. By default the User space program assumes it to be in /dev/vs10xx-0.
 
 If anything other than this is there, then the above command can be also given as,
 ```
