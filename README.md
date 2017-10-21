@@ -28,7 +28,7 @@ make all
 ```
 After successful build, copy the entire folder to your Rpi3 Home path using SD Card Reader.\
 After this power on your Rpi3 & go to the directory path of this Linux Device Driver.\
-Insert the Module using insmod\
+Insert the Module using insmod
 ```
 insmod vs10xx.ko
 ```
