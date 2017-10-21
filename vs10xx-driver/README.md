@@ -1,5 +1,7 @@
 # Writing a Linux Device Driver for Audio DSP Codec, VS1053 for RaspberryPi 3 on Linux Kernel 4.4.
 
+![Alt text](https://github.com/RajivBiswas/RaspberryPi-Dev/blob/master/small_setup.png "The setup")
+
 Linux Device Driver Sources for VS1053/1003 Audio Codec.
 
 To Build the Project first setup the Toolchain as i have mentioned in my Blog Page:
