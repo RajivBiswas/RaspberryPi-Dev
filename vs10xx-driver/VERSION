@@ -1,0 +1,4 @@
+
+export CCPREFIX=/home/r/r/BuildKernel/tools-master/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/arm-linux-gnueabihf-
+export PATH=$PATH:/home/r/r/BuildKernel/tools-master/arm-bcm2708/gcc-linaro-arm-linux-gnueabihf-raspbian/bin/
+
