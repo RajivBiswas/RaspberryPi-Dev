@@ -2,7 +2,7 @@
 
 IOCTL Userspace Program to control, configure & perform Audio playback with Audio 
 Codec.\
-Please create a new directory on your Rpi3 Home path.\ 
+Please create a new directory on your Rpi3 Home path.\
 Copy the sources of the directory to the new directory.\
 After, this on your Rpi3 Board, inside the sources of this folder, type,
 ```
